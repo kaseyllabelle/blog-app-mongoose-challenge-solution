@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: GnCDnwFHwuIqjYOQR+7FfIAWlbenol0Csw581Od6F0wBDoLHArkGkQy1fZKOISPq2R87ELatlRnnrRSg4IHaX/A7G/ldoisaO24Ojxpf7CiR272KNRC+jYymlwCZa+ASMDrD6NrEPDSl9ho7o83Pn1c+HESouvyOyroaI9HEHOVrz1hfCCms+ZVcS6wpINM5EUZojhvmQFfLQ29AevO3TwVsqrH1hZUe6RnM5N3Gky8a3pKD2IEk+fCuoXp66GN9g3DfVJTcw3V0+cC6YIRjlAPuXeXPflW8ERCZDeK3FLXTbksoR0XP22lExQ0a8Lmt+hy2fY1MxDiODhR6lHefUjOLCMZQc7zB3wRTlvEUHy8Zo7KZdDQPbEw7Weo22Dc2aoQdkvbAZBiUjeIYP4KLUXZshUwsf8NGNGJbB5Uf07EJ/o91lxcZCrmqZtT6yut6vs4qFu4noxacvMNwlcFsZUVGoJ+6xU6cIpvxf8z+twVt9Yi9VdcVrEgXF5KkZj54ehKQopfBIkgn6XeKqkS1etNABsLgfZI2Gj+ACjEkeza7ey9L+pohUCs4oRHkjbBl9OduttA0KWoeWYKGXiZU67bGWzWc4GbzLznlspIOihxHZpeJfqSxLBsYIVD6KUyGwDfffzl81SVeQNkPb3xarfyBH7TpYnmzp+G/BF4OQYI=
+  app: secret-scrubland-98502
+  on:
+    repo: kaseyllabelle/blog-app-mongoose-challenge-solution
